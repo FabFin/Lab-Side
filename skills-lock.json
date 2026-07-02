@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "social-publisher": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/social-publisher/SKILL.md",
+      "computedHash": "4b1318db57bf4cfe579d6651f0270b59abda161b9ea20e1f55aa5e1f9dd88d98"
+    }
+  }
+}
