@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "browser-act": {
+      "source": "browser-act/skills",
+      "sourceType": "github",
+      "skillPath": "browser-act/SKILL.md",
+      "computedHash": "088c799ca8d197f56302d56d6626aaf157f77c2788a3767c9d5a1e7e9c14e0cd"
+    },
+    "browser-act-skill-forge": {
+      "source": "browser-act/skills",
+      "sourceType": "github",
+      "skillPath": "browser-act-skill-forge/SKILL.md",
+      "computedHash": "1e2dd30f6320fa55705951c7bb2273a277023a51961d329ef0a1ce51ac46a556"
+    },
+    "continuous-learning-v2": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/continuous-learning-v2/SKILL.md",
+      "computedHash": "81c580946f62dff029c996be4d8842f044ccfe6cdedfe65f04e9a713a8d4fb6d"
+    }
+  }
+}
