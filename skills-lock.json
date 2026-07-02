@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "cost-tracking": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/cost-tracking/SKILL.md",
+      "computedHash": "3a320e122b80e4f00520f1f8f60976b8ac2591ccf0be4d39b8265c844fc3256a"
+    }
+  }
+}
