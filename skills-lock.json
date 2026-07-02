@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "continuous-learning-v2": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/continuous-learning-v2/SKILL.md",
+      "computedHash": "81c580946f62dff029c996be4d8842f044ccfe6cdedfe65f04e9a713a8d4fb6d"
+    }
+  }
+}
