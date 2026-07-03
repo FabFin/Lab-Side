@@ -1,39 +1,39 @@
-first,last,title,company,domain,email_status,apollo_person_id
-Luca,,Responsabile Operativo,CST LOGISTICA TRASPORTI,,,5f707aef6ecc07000177ea75
-Veronica,,Responsabile Amministrazione Finanza e Controllo,Nicoli Trasporti Spedizioni SpA,,,644b687fbd0532000165550b
-Francesca,,CFO,CST LOGISTICA TRASPORTI,,,54ec30f17468694311ce9162
-Warren,,Chief Financial Officer,Albatrans International Freight Forwarders,,,54a507d07468693b8cec2377
-Jerome,,Chief Financial Officer,AMT S.A.,,,60dafaec6da23c0001d73183
-Andrea,,CEO,Vector Spa,,,611ecd12798f1e000177094d
-Bruno,,CFO,Trasporti Romagna Spa,,,5d4a5c6280f93ed16ed2dc74
-Massimo,,Direttore Generale – Trasporto Merci su Strada e Logistica,Dorica Express Group,,,667d6f452664050001874f4f
-Michel,,Chief Executive Officer,AMT S.A.,,,67a22fb4441d1100016c5668
-Elvezio,,CEO,Trasporti Pesanti,,,69ac38e0c9a42500018fa87d
-Franco,,CEO,Bongiorno Srl - Spedizioni Internazionali,,,57daaaeea6da984a40c8b70a
-Maja,,C.E.O.,Albatrans International Freight Forwarders,,,60e92c06e2aca100019708d0
-Jakes,,Chief Executive Officer,Albatrans International Freight Forwarders,,,5f061de091f1b10001ee3e13
-Linda,,Group CFO,Trasporti Romagna Spa,,,54a6f8ba74686965d9572609
-Fabien,,Group CFO,TLC Transportation & Logistic Consulting,,,605b418ebea84b0001f2dc5f
-Sebastien,,Group Chief Executive Officer,AMT S.A.,,,54a2121f7468693fda843c0a
-Ross,,Managing Director,Express Global,,,54a7304974686965d9e7701d
-Alberto,,Managing Director,AMT S.A.,,,5f72d41454f4f000013e6204
-Tanja,,Managing Director,Albatrans International Freight Forwarders,,,69ac68007dbd690001377c90
-Raffaele,,CEO Office,Fischer & Rechsteiner Company S.p.A.,,,5ace252fa6da98d112886e3c
-Giovanna,,Managing Director,Express Global,,,60ccb8a9cf52b60001d9a1d8
-Ares,,Administrative Director,Tepoorten Group SA,,,615286efc236590001a6f1f9
-Johann,,Managing Director Oceania,Albatrans International Freight Forwarders,,,5fb6fe4ab8e34b000135761a
-Philippe,,Group Managing Director,TLC Transportation & Logistic Consulting,,,603513f021475e0001b6ec5c
-Emmanuelle,,Managing Director France,Albatrans International Freight Forwarders,,,5ab1f0b7a6da98f813f77ebb
-Fabio,,Administrative Manager,Trasporti Romagna Spa,,,5fdcac04d23a3300017fc22d
-Ulisse,,General Manager,Trasporti Pesanti,,,54a2a24a7468693a7ec7c531
-Luciana,,Administrative Manager,Laghezza spa,,,5d64397a80f93e2954b4d7ae
-Filippo,,General Manager,Ala Trasporti SA,,,678bd2c86f9403000125828a
-Sara,,Administrative Manager,Trasporti Pesanti,,,55709a0d7369644384880c00
-Diana,,Administrative Manager,Nicoli Trasporti Spedizioni SpA,,,6129e1c76a46a400011dce20
-Ruggero,,Administrative Manager,GIRELLI LOGISTICS GROUP S.R.L.,,,5e86d668f896ba0001070a5c
-Mariuccia,,Administrative Manager,CST LOGISTICA TRASPORTI,,,66fe44b44837c20001556729
-Debora,,Administrative Manager,Ala Trasporti SA,,,67a77cbff3a92a00016988cc
-Simone,,Group CEO e Azionista,Trasporti Romagna Spa,,,5f99003535225300013cd85f
-Rosanna,,Administrative Manager,ZANINONI S.p.A.,,,54c2a4a27468697af73b36b4
-Ramiro,,General Manager,TLC Transportation & Logistic Consulting,,,54aba7d17468692ca1fb6f03
-Weiming,,General Manager,TLC Transportation & Logistic Consulting,,,5ffca743809959000150ed49
+first,last,title,company,domain,email,email_status,linkedin,city,country,apollo_person_id
+Francesca,Sottocasa,CFO,CST LOGISTICA TRASPORTI,csttrasporti.it,francesca.sottocasa@csttrasporti.it,verified,http://www.linkedin.com/in/francesca-sottocasa-82b5a930,,Italy,54ec30f17468694311ce9162
+Mariuccia,Cecchin,Administrative Manager,CST LOGISTICA TRASPORTI,csttrasporti.it,mariuccia.cecchin@csttrasporti.it,extrapolated,http://www.linkedin.com/in/mariuccia-cecchin-45b1aa234,San Martino di Lupari,Italy,66fe44b44837c20001556729
+Luca,Lussiana,Responsabile Operativo,CST LOGISTICA TRASPORTI,csttrasporti.it,luca.lussiana@csttrasporti.it,extrapolated,http://www.linkedin.com/in/luca-lussiana-bo,Bologna,Italy,5f707aef6ecc07000177ea75
+Veronica,Piccoli,Responsabile Amministrazione Finanza e Controllo,Nicoli Trasporti Spedizioni SpA,nicolitrasporta.it,veronica.piccoli@nicoligroup.com,verified,http://www.linkedin.com/in/veronicapiccoli,Bergamo,Italy,644b687fbd0532000165550b
+Diana,Pulcini,Administrative Manager,Nicoli Trasporti Spedizioni SpA,nicolitrasporta.it,diana.pulcini@nicoligroup.com,verified,http://www.linkedin.com/in/diana-pulcini-881b77151,Albino,Italy,6129e1c76a46a400011dce20
+Bruno,Cortiana,CFO,Trasporti Romagna Spa,trasportiromagna.com,,unavailable,http://www.linkedin.com/in/bruno-cortiana-965ab2180,Vicenza,Italy,5d4a5c6280f93ed16ed2dc74
+Linda,Bison,Group CFO,Trasporti Romagna Spa,trasportiromagna.com,linda.bison@trasportiromagna.com,verified,http://www.linkedin.com/in/linda-bison-85569487,Vicenza,Italy,54a6f8ba74686965d9572609
+Simone,Romagna,Group CEO e Azionista,Trasporti Romagna Spa,trasportiromagna.com,simone@trasportiromagna.com,verified,http://www.linkedin.com/in/simone-romagna-aa69a41a9,,Italy,5f99003535225300013cd85f
+Fabio,Gastaldello,Administrative Manager,Trasporti Romagna Spa,trasportiromagna.com,fabio.gastaldello@trasportiromagna.com,verified,http://www.linkedin.com/in/fabio-gastaldello-69b65110b,Rossano Veneto,Italy,5fdcac04d23a3300017fc22d
+Luciana,Rossetti,Administrative Manager,Laghezza spa,laghezza.com,luciana.rossetti@laghezza.com,verified,http://www.linkedin.com/in/luciana-rossetti-742281150,La Spezia,Italy,5d64397a80f93e2954b4d7ae
+Warren,Van Wyk,Chief Financial Officer,Albatrans International Freight Forwarders,albatrans.com,w.vanwyk@albatrans.com,extrapolated,http://www.linkedin.com/in/warren-van-wyk-69713783,Cape Town,South Africa,54a507d07468693b8cec2377
+Maja,Luciani,C.E.O.,Albatrans International Freight Forwarders,albatrans.com,m.luciani@albatrans.com,verified,http://www.linkedin.com/in/maja-luciani-50977312,Toronto,Canada,60e92c06e2aca100019708d0
+Jakes,Wet,Chief Executive Officer,Albatrans International Freight Forwarders,albatrans.com,j.wet@albatrans.com,extrapolated,http://www.linkedin.com/in/jakes-de-wet-92070026,Cape Town,South Africa,5f061de091f1b10001ee3e13
+Tanja,Schott,Managing Director,Albatrans International Freight Forwarders,albatrans.com,t.schott@albatrans.com,verified,http://www.linkedin.com/in/tanja-schott-528995232,,Germany,69ac68007dbd690001377c90
+Emmanuelle,Vincent-Tejero,Managing Director France,Albatrans International Freight Forwarders,albatrans.com,emmanuelle.tejero@albatrans.com,verified,http://www.linkedin.com/in/emmanuelle-tejero,Bordeaux,France,5ab1f0b7a6da98f813f77ebb
+Johann,Franzsen,Managing Director Oceania,Albatrans International Freight Forwarders,albatrans.com,johann.franzsen@albatrans.com,verified,http://www.linkedin.com/in/johann-franzsen-b6270a26,Mascot,Australia,5fb6fe4ab8e34b000135761a
+Jerome,Delias,Chief Financial Officer,AMT S.A.,amt-sa.com,j.delias@amt-sa.com,verified,http://www.linkedin.com/in/jerome-delias-842b002,Luanda,Angola,60dafaec6da23c0001d73183
+Michel,Dubois,Chief Executive Officer,AMT S.A.,amt-sa.com,m.dubois@amt-sa.com,verified,http://www.linkedin.com/in/michel-dubois-027a6159,Nyon,Switzerland,67a22fb4441d1100016c5668
+Sebastien,Quedrue,Group Chief Executive Officer,AMT S.A.,amt-sa.com,s.quedrue@amt-sa.com,verified,http://www.linkedin.com/in/sebastien-quedrue,Paris,France,54a2121f7468693fda843c0a
+Alberto,Freire,Managing Director,AMT S.A.,amt-sa.com,a.freire@amt-sa.com,verified,http://www.linkedin.com/in/alberto-freire-2093bb31,,France,5f72d41454f4f000013e6204
+Fabien,Franco,Group CFO,TLC Transportation & Logistic Consulting,tlc-com.ch,ffranco@tlc-com.ch,verified,http://www.linkedin.com/in/fabien-franco-ffr2023,Crozet,France,605b418ebea84b0001f2dc5f
+Philippe,Masserey,Group Managing Director,TLC Transportation & Logistic Consulting,tlc-com.ch,phmasserey@tlc-com.ch,verified,http://www.linkedin.com/in/philippe-masserey-7b91a74b,Eysins,Switzerland,603513f021475e0001b6ec5c
+Ramiro,Valdez,General Manager,TLC Transportation & Logistic Consulting,tlc-com.ch,,unavailable,http://www.linkedin.com/in/ramiro-valdez-3956b525,,Panama,54aba7d17468692ca1fb6f03
+Weiming,Ye,General Manager,TLC Transportation & Logistic Consulting,tlc-com.ch,,unavailable,http://www.linkedin.com/in/weiming-ye-379a77137,,Republic of the Union of Myanmar,5ffca743809959000150ed49
+Andrea,Butta,CEO,Vector Spa,vectorspa.it,butta.andrea@vectorspa.it,verified,http://www.linkedin.com/in/andrea-butt%c3%a0-a8b05433,Milan,Italy,611ecd12798f1e000177094d
+Massimo,Albamonte,Direttore Generale – Trasporto Merci su Strada e Logistica,Dorica Express Group,doricagroup.com,m.albamonte@doricagroup.com,verified,http://www.linkedin.com/in/massimo-albamonte,Camerano,Italy,667d6f452664050001874f4f
+Elvezio,Storti,CEO,Trasporti Pesanti,pesantisrl.it,e.storti@pesantisrl.it,verified,http://www.linkedin.com/in/elvezio-storti-19513119a,Cremona,Italy,69ac38e0c9a42500018fa87d
+Ulisse,Albertazzi,General Manager,Trasporti Pesanti,pesantisrl.it,,unavailable,http://www.linkedin.com/in/ulissealbertazzi,,Italy,54a2a24a7468693a7ec7c531
+Sara,Aschieri,Administrative Manager,Trasporti Pesanti,pesantisrl.it,sara.aschieri@pesantisrl.it,verified,http://www.linkedin.com/in/sara-aschieri-945b9b48,Cremona,Italy,55709a0d7369644384880c00
+Franco,Bongiorno,CEO,Bongiorno Srl - Spedizioni Internazionali,bongiornotrasporti.it,franco.bongiorno@bongiornosrl.com,verified,http://www.linkedin.com/in/franco-bongiorno-4939863a,,Italy,57daaaeea6da984a40c8b70a
+Ross,McIex,Managing Director,Express Global,expressglobal.com,r.wishart@expressglobal.com,verified,http://www.linkedin.com/in/ross-wishart-mciex-640a8130,Felixstowe,United Kingdom,54a7304974686965d9e7701d
+Giovanna,C,Managing Director,Express Global,expressglobal.com,g.c@expressglobal.com,extrapolated,http://www.linkedin.com/in/giovanna-cibin,Hong Kong,Hong Kong,60ccb8a9cf52b60001d9a1d8
+Raffaele,Riva,CEO Office,Fischer & Rechsteiner Company S.p.A.,ferfreight.com,raffaele.riva@ferfreight.com,verified,http://www.linkedin.com/in/raffaele-riva,Lecco,Italy,5ace252fa6da98d112886e3c
+Ares,Schera,Administrative Director,Tepoorten Group SA,tepoorten.group,,unavailable,http://www.linkedin.com/in/ares-schera-495867207,Chiasso,Switzerland,615286efc236590001a6f1f9
+Ruggero,Barbieri,Administrative Manager,GIRELLI LOGISTICS GROUP S.R.L.,girellilogisticsgroup.com,ruggero.barbieri@girellilogisticsgroup.com,extrapolated,http://www.linkedin.com/in/ruggero-barbieri-5017a2139,Verona,Italy,5e86d668f896ba0001070a5c
+Rosanna,Traetta,Administrative Manager,ZANINONI S.p.A.,zaninoni.biz,,unavailable,http://www.linkedin.com/in/rosanna-traetta-09a16976,Bergamo,Italy,54c2a4a27468697af73b36b4
+Filippo,Meroni-Carlovingi,General Manager,Ala Trasporti SA,alatrasporti.ch,f.meroni-carlovingi@alatrasporti.ch,verified,http://www.linkedin.com/in/filippo-meroni-carlovingi-351ab59a,Novazzano,Switzerland,678bd2c86f9403000125828a
+Debora,Gentili,Administrative Manager,Ala Trasporti SA,alatrasporti.ch,debora.gentili@alatrasporti.ch,verified,http://www.linkedin.com/in/debora-gentili-84b7711b0,,Switzerland,67a77cbff3a92a00016988cc
