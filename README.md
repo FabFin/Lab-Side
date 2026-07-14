@@ -23,7 +23,7 @@ Questo repo è la base operativa del progetto Lab-Side:
 | AIGenBot | [FabFin/AIGenBot](https://github.com/FabFin/AIGenBot) | Attivo | +15% accuracy lead scoring, -50% tempo email, -€0.30/email |
 | GTM Automation Framework | [FabFin/gtm-automation-framework](https://github.com/FabFin/gtm-automation-framework) | In aggiornamento | +133% conversion |
 | Sales Data Dashboard | [FabFin/sales-data-dashboard](https://github.com/FabFin/sales-data-dashboard) | v2 in arrivo | 15+ metriche real-time |
-| Reverse Recruiting Engine | [FabFin/My-bio](https://github.com/FabFin/My-bio/tree/main/reverse-recruiting-engine) | In sviluppo | 4 agenti AI per prospecting |
+| Reverse Recruiting Engine | [FabFin/My-bio](https://github.com/FabFin/My-bio/tree/main/reverse-recruiting-app) | In sviluppo — backend multi-utente | 10 moduli, beta privata a inviti |
 
 ---
 
