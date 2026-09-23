@@ -13,6 +13,7 @@ Questo repo è la base operativa del progetto Lab-Side:
 - **`/posts`** — bozze e versioni finali degli articoli Substack (markdown)
 - **`/projects`** — documentazione sintetica dei Lab R&D projects attivi
 - **`/templates`** — template riutilizzabili per post e analisi
+- **`/skills`** — skill Claude riutilizzabili e configurabili (es. [`lead-qualifier`](skills/lead-qualifier))
 
 ---
 

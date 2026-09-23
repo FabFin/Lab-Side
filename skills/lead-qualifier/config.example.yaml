@@ -1,0 +1,125 @@
+# Lead Qualifier — configurazione
+# Copia questo file come `config.yaml` nella cartella della skill e compilalo.
+# Regola: un campo che non conosci lascialo vuoto. La skill lo dichiarerà come
+# "non applicabile" invece di inventare un valore.
+
+seller:
+  name: ""            # es. "Mario"
+  company: ""         # es. "Acme Srl"
+  role: ""            # es. "Sales Executive"
+
+offer:
+  one_liner: ""       # cosa vendi in una frase (uso interno, non va nel messaggio)
+  services:
+    - id: ""                      # identificativo breve, es. "platform"
+      name: ""                    # nome commerciale
+      when_to_recommend:          # segnali OSSERVABILI che attivano la raccomandazione
+        - ""                      # es. "catalogo e-commerce con oltre 1.000 SKU"
+      internal_notes: ""          # prezzi/ACV: mostrati a te, mai al prospect
+  add_ons:                        # opzionale: servizi da proporre solo in bundle
+    - name: ""
+      when_to_recommend: [""]
+
+verdict:
+  auto_exclude:                   # condizioni che rendono FUORI TARGET a prescindere
+    - ""                          # es. "procedura di crisi o composizione negoziata in corso"
+  thresholds:                     # valutate in ordine, la prima soddisfatta vince
+    - label: "IN TARGET, priorità alta"
+      min_score: null             # es. 3.5
+      conditions: []              # es. ["headcount >= 80"]
+    - label: "IN TARGET, priorità media"
+      min_score: null             # es. 2.5
+      conditions: []
+  secondary_target:               # opzionale: offerta ridotta per chi è sotto soglia
+    label: ""                     # es. "TARGET MINORE"
+    conditions: []                # es. ["fatturato tra 5 e 20 mln €"]
+    services: []                  # id o nomi dei servizi da proporre
+  default_label: "FUORI TARGET"
+
+industries:                       # classifica settori. Vuota = score industry non applicabile
+  source: ""                      # da dove vengono i punteggi (documento, versione, data)
+  list:
+    - name: ""
+      score: null                 # /5
+
+scoring:
+  weights: null                   # null = media semplice. Altrimenti mappa id -> peso
+  dimensions:
+    # Ogni dimensione: metrica osservabile + fonte + soglie numeriche.
+    # I valori commentati sono quelli del modello da cui questa skill deriva:
+    # verificali per il tuo caso prima di usarli.
+    - id: content_volume
+      enabled: false
+      label: "Volume di contenuto"
+      source: "URL totali nella sitemap pubblica"
+      thresholds: []              # es. [{score: 5, min: 2000}, {score: 4, min: 1000}, {score: 3, min: 400}, {score: 2, min: 150}, {score: 1, min: 0}]
+    - id: language_fragmentation
+      enabled: false
+      label: "Frammentazione linguistica"
+      source: "combinazioni lingua-paese in sitemap/URL"
+      thresholds: []              # es. [{score: 5, min: 50}, {score: 4, min: 15}, {score: 3, min: 5}, {score: 2, min: 2}, {score: 1, min: 1}]
+    - id: sector_gap
+      enabled: false
+      label: "Divario di settore"
+      source: ""                  # es. "Eurostat isoc_eb_ain2, invertito"
+      inherit_from_industry: true
+      thresholds: []
+    - id: regulatory_pressure
+      enabled: false
+      label: "Pressione normativa"
+      source: "norme di `regulations` che toccano il settore + precedenti sanzionatori"
+      thresholds: []              # es. [{score: 5, rule: "3 norme e precedenti"}, {score: 4, rule: "3 norme, o 2 con precedenti"}, {score: 3, rule: "2 norme"}, {score: 2, rule: "1 norma"}, {score: 1, rule: "nessuna"}]
+    - id: contactability
+      enabled: false
+      label: "Facilità di contatto"
+      source: "ruoli di `personas` trovabili su LinkedIn/connettori"
+      thresholds: []              # es. [{score: 5, rule: "ruoli chiaramente identificabili e attivi"}, {score: 1, rule: "nessun profilo target trovabile"}]
+    - id: spend_capacity
+      enabled: false
+      label: "Capacità di spesa"
+      source: "fatturato da `revenue_sources`"
+      thresholds: []              # es. [{score: 5, min_eur_mln: 500}, {score: 4, min_eur_mln: 150}, {score: 3, min_eur_mln: 50}, {score: 2, min_eur_mln: 0}]
+    # Puoi aggiungere dimensioni tue con lo stesso schema.
+
+revenue_sources:                  # in ordine di priorità
+  - country: "IT"
+    sources: []                   # es. ["registroimprese.it", "fatturatoitalia.it (ricerca per P.IVA)"]
+  - country: "UK"
+    sources: []                   # es. ["Companies House"]
+  - country: "*"
+    sources: []                   # es. ["aggregatori che citano esplicitamente il bilancio depositato"]
+
+regulations:                      # norme che creano urgenza
+  - name: ""
+    date: ""                      # data di applicazione
+    sectors: []                   # settori di `industries` toccati
+
+personas:
+  default: []                     # ruoli se il settore non ha una lista dedicata
+  by_industry: {}                 # es. { "Retail e e-commerce": ["CMO", "Head of E-commerce"] }
+  secondary_if_high_regulation: [] # es. ["Head of Compliance", "Legal Counsel", "DPO"]
+
+analysis:
+  extra_signals: []               # segnali aggiuntivi da cercare, es. "PIM/DAM citati", "job posting localization"
+
+messaging:
+  language: "italiano"
+  subject_max_words: 7
+  length_words: [80, 130]
+  structure: []                   # vuoto = struttura di default a 4 blocchi (vedi SKILL.md)
+  tone: ""                        # es. "colloquiale, mai pitchy, nessun elenco di benefici"
+  forbidden: []                   # es. ["nell'era digitale", "trattini/dash", "hai 15 minuti?"]
+  notes: []                       # regole per settore, es. "Retail: apri con angle compliance, non case study"
+
+case_studies:                     # solo casi reali
+  - vertical: ""
+    description: ""
+    confidential: true            # true = mai nominare il cliente
+
+connectors:
+  enrichment: []                  # es. ["Apollo.io", "Hunter", "Lusha", "Clay"]
+
+log:
+  enabled: false
+  file: "outreach-log.md"
+  fields: ["Azienda", "Dominio", "Data", "Verdetto", "Punteggio", "Servizio", "Contatti", "Stato", "Prossimo step"]
